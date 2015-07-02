@@ -1,0 +1,86 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+.slogan .emphasis{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.slogan {
+    margin-top: 150px;
+    text-align: center;
+}
+.slogan .advertisement{
+    margin-top: 40px;
+}
+
+body {
+    background-color: #E3E3E3;
+    font-family: monospace;
+
+}
+
+header{
+    
+        background-image:url("hogwarts.jpg");
+        background-attachment: fixed;
+        background-position: 0 -180px;
+        background-size: cover;
+        box-sizing: border-box;
+        color: #fff;
+        padding: 60px 50px;
+    
+}
+
+nav h1 {
+    
+        float: left;
+
+}
+
+nav ul {
+    
+        float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;   
+}
+
+nav ul li a {
+   /* border: 1px solid #fff;
+    padding: 5px;
+    */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.wrapper{
+    margin: 0 auto;
+    width: 960px;
+}
+.slogan .sign-up-form input{
+    border: none;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+.slogan .sign-up-form input[type="text"]{
+    width: 280px;
+}
+.slogan .sign-up-form input[type="submit"]{
+    background-color: #740303;
+    color: #fff;
+    margin-left: -7px;
+
+
